@@ -26,6 +26,11 @@ O pre-commit é uma ferramenta que permite configurar e gerenciar ganchos de pr�
    DISABLE_ERRORS: false
    ```
 
+7. Para habilitar a correção automática de código:
+   ```
+   APPLY_FIXES: all
+   ```
+
 ## Rodando Megalinter no pós-commit (CI/CD)
 
 Para inserir as regras de linter no repositório para todos os usuários via Github Actions, seguir os passos:
